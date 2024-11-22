@@ -1,4 +1,5 @@
 use std::io;
+
 fn number_determinant(value: i32) -> &'static str {
     if value == 0 || value % 2 == 0 {
         "even"
